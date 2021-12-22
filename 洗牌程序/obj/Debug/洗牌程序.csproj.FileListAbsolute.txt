@@ -1,0 +1,7 @@
+E:\code\c#\洗牌程序\洗牌程序\bin\Debug\洗牌程序.exe
+E:\code\c#\洗牌程序\洗牌程序\bin\Debug\洗牌程序.pdb
+E:\code\c#\洗牌程序\洗牌程序\obj\Debug\洗牌程序.csprojResolveAssemblyReference.cache
+E:\code\c#\洗牌程序\洗牌程序\obj\Debug\洗牌程序.exe
+E:\code\c#\洗牌程序\洗牌程序\obj\Debug\洗牌程序.pdb
+E:\code\c#\洗牌程序\洗牌程序\obj\Debug\洗牌程序.MainForm.resources
+E:\code\c#\洗牌程序\洗牌程序\obj\Debug\洗牌程序.csproj.GenerateResource.Cache
