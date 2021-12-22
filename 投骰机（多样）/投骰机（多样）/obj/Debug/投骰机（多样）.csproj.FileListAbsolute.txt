@@ -1,0 +1,7 @@
+E:\code\c#\投骰机（多样）\投骰机（多样）\bin\Debug\投骰机（多样）.exe
+E:\code\c#\投骰机（多样）\投骰机（多样）\bin\Debug\投骰机（多样）.pdb
+E:\code\c#\投骰机（多样）\投骰机（多样）\obj\Debug\投骰机（多样）.csprojResolveAssemblyReference.cache
+E:\code\c#\投骰机（多样）\投骰机（多样）\obj\Debug\投骰机_多样_.MainForm.resources
+E:\code\c#\投骰机（多样）\投骰机（多样）\obj\Debug\投骰机（多样）.csproj.GenerateResource.Cache
+E:\code\c#\投骰机（多样）\投骰机（多样）\obj\Debug\投骰机（多样）.exe
+E:\code\c#\投骰机（多样）\投骰机（多样）\obj\Debug\投骰机（多样）.pdb

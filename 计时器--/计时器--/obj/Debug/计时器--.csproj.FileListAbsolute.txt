@@ -1,0 +1,7 @@
+E:\code\c#\计时器--\计时器--\bin\Debug\计时器--.exe
+E:\code\c#\计时器--\计时器--\bin\Debug\计时器--.pdb
+E:\code\c#\计时器--\计时器--\obj\Debug\计时器--.csprojResolveAssemblyReference.cache
+E:\code\c#\计时器--\计时器--\obj\Debug\计时器__.MainForm.resources
+E:\code\c#\计时器--\计时器--\obj\Debug\计时器--.csproj.GenerateResource.Cache
+E:\code\c#\计时器--\计时器--\obj\Debug\计时器--.exe
+E:\code\c#\计时器--\计时器--\obj\Debug\计时器--.pdb
