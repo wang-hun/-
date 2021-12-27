@@ -391,6 +391,7 @@ namespace 扑克牌
 			}
 				goal.Text=Convert.ToString(Convert.ToInt32(goal.Text)+Convert.ToInt32(cardsstcknum.Text)+Convert.ToInt32(gamesnum.Text)*10);
 				cleartable();
+				changecard();
 				return;
 		}
 		MessageBox.Show("牌的总点数不是21点！！！！","鱼唇！！！");
