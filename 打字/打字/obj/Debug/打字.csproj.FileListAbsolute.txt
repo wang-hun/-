@@ -1,7 +1,0 @@
-E:\code\c#\打字\打字\obj\Debug\打字.csprojResolveAssemblyReference.cache
-E:\code\c#\打字\打字\obj\Debug\打字.MainForm.resources
-E:\code\c#\打字\打字\obj\Debug\打字.csproj.GenerateResource.Cache
-E:\code\c#\打字\打字\bin\Debug\打字练习.exe
-E:\code\c#\打字\打字\bin\Debug\打字练习.pdb
-E:\code\c#\打字\打字\obj\Debug\打字练习.exe
-E:\code\c#\打字\打字\obj\Debug\打字练习.pdb
