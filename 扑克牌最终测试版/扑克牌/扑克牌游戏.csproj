@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{088121BF-3AFA-44C3-B2EC-5779C06F9F8B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>扑克牌游戏</RootNamespace>
+    <AssemblyName>扑克牌游戏</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSkin">
+      <HintPath>..\..\..\CSkin 16.1.14.3\CSkin 16.1.14.3\CSkin 4.0\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nameinput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nameinput.Designer.cs">
+      <DependentUpon>nameinput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MYform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MYform.Designer.cs">
+      <DependentUpon>MYform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nameinput.resx">
+      <DependentUpon>nameinput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MYform.resx">
+      <DependentUpon>MYform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\help.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\大王.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片J.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片K.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\方片Q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃J.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃K.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\黑桃Q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃J.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃K.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\红桃Q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\卡背.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花J.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花K.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\梅花Q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\小王.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usertemp.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\R-C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\down.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
